@@ -1,0 +1,66 @@
+/* CSS for styling the admin dashboard */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px;
+    text-align: center; /* Center align header content */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Link color - white */
+    font-weight: bold;
+    font-size: 16px; /* Increase link font size */
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0); 
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+footer {
+    text-align: center;
+    background-color: #007BFF; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 10px;
+}
+
+/* Add some additional styles for the welcome message */
+#welcome-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
